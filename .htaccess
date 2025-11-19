@@ -1,0 +1,41 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page92957096.html
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^ecosystem$ page93846006.html [NC]
+RewriteRule ^ecosystem/$ page93846006.html [NC]
+
+RewriteRule ^tokenomics$ page93854506.html [NC]
+RewriteRule ^tokenomics/$ page93854506.html [NC]
+
+RewriteRule ^roadmap$ page94310466.html [NC]
+RewriteRule ^roadmap/$ page94310466.html [NC]
+
+RewriteRule ^allsolutions$ page94630976.html [NC]
+RewriteRule ^allsolutions/$ page94630976.html [NC]
+
+RewriteRule ^joinpresale$ page94664886.html [NC]
+RewriteRule ^joinpresale/$ page94664886.html [NC]
+
+RewriteRule ^buynex$ page94677476.html [NC]
+RewriteRule ^buynex/$ page94677476.html [NC]
+
+RewriteRule ^referrals$ page94899506.html [NC]
+RewriteRule ^referrals/$ page94899506.html [NC]
+
+RewriteRule ^leaderboard$ page94931996.html [NC]
+RewriteRule ^leaderboard/$ page94931996.html [NC]
+
+RewriteRule ^airdrop$ page94966076.html [NC]
+RewriteRule ^airdrop/$ page94966076.html [NC]
+
+RewriteRule ^howtobuy$ page94970936.html [NC]
+RewriteRule ^howtobuy/$ page94970936.html [NC]
+
+
