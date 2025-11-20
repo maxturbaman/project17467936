@@ -1,4 +1,4 @@
-ErrorDocument 403 /404.html
+﻿ErrorDocument 403 /404.html
 ErrorDocument 404 /404.html
 
 DirectoryIndex page92957096.html
@@ -23,8 +23,8 @@ RewriteRule ^allsolutions/$ page94630976.html [NC]
 RewriteRule ^joinpresale$ page94664886.html [NC]
 RewriteRule ^joinpresale/$ page94664886.html [NC]
 
-RewriteRule ^buynex$ page94677476.html [NC]
-RewriteRule ^buynex/$ page94677476.html [NC]
+RewriteRule ^buynex$ page94664886.html [NC]
+RewriteRule ^buynex/$ page94664886.html [NC]
 
 RewriteRule ^referrals$ page94899506.html [NC]
 RewriteRule ^referrals/$ page94899506.html [NC]
